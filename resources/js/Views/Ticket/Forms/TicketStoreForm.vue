@@ -17,6 +17,7 @@ const submitStoreForm = async (event) => {
 
   const response = await TicketRepository.store(formData)
 
+  // сделал бы по другому например в алерт компонентах отображать сообщения но и так поздно начал и спешил сдать. но на всякий оставил пустые компоненты с алертами
   // WARNING: DIRTY ZONE :WARGNING
   document.getElementById('dirty').innerHTML = response instanceof Ticket ? response.toString() : response.formatted()
   setTimeout(() => { document.getElementById('dirty').innerHTML = '' }, 5000)
