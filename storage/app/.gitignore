@@ -1,5 +1,5 @@
 *
 !public/
 !.gitignore
-!tickets_last_id.txt
+!tickets_serial_sequence.txt
 !tickets.json
