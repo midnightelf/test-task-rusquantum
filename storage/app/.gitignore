@@ -1,0 +1,5 @@
+*
+!public/
+!.gitignore
+!tickets_last_id.txt
+!tickets.json
